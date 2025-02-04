@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #cce7ff, #e6f7ff);
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0073e6;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+}
+
+.service-areas {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Pricing Table Styles */
+.pricing {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff6600;
+  margin-bottom: 10px;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.pricing-table th {
+  background-color: #0073e6;
+  color: white;
+}
+
+.pricing-table td {
+  background-color: #f9f9f9;
+}
+
+.extra-note {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #0073e6;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #0073e6;
+  outline: none;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  background: linear-gradient(to right, #0073e6, #ff6600);
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #005bb5, #cc5200);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
